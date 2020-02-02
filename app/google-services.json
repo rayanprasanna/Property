@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "75451782698",
+    "firebase_url": "https://realestate-74cfc.firebaseio.com",
+    "project_id": "realestate-74cfc",
+    "storage_bucket": "realestate-74cfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75451782698:android:f6d2bfb153fb24c5",
+        "android_client_info": {
+          "package_name": "com.universl.realestate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75451782698-lttnn6t9tg89u90796jhg84g96a1r79c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.universl.realestate",
+            "certificate_hash": "b7ad86d7d45cc3ff74ef2b4efcf66ef08e534096"
+          }
+        },
+        {
+          "client_id": "75451782698-212gki06v2663kvglmqiok003bi1214s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMBihaB1kqi-THDbtkVeHCY_sAHf9pXX0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75451782698-212gki06v2663kvglmqiok003bi1214s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

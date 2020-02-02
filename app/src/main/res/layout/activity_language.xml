@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground_2"
+    tools:context=".LanguageActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="ඉදිරියට යාම සඳහා කරුණාකර ඔබ කැමති භාෂාව තෝරා ගන්න."
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:background="@color/green"
+        tools:ignore="HardcodedText,RtlCompat" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:gravity="center"
+        android:text="Please select a language to proceed."
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:background="@color/green"
+        tools:ignore="HardcodedText,RtlCompat" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/language"
+        android:layout_below="@+id/textView3"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="22.5dp"
+            android:orientation="vertical"
+            tools:ignore="UnusedAttribute,UselessParent">
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/language_radio"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/sl_vlog"
+                        tools:ignore="ContentDescription" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="සිංහල"
+                        android:layout_gravity="center"
+                        android:id="@+id/sinhala"
+                        android:onClick="onRadioButtonClicked"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/s_uk"
+                        tools:ignore="ContentDescription" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="English"
+                        android:layout_gravity="center"
+                        android:id="@+id/english"
+                        android:onClick="onRadioButtonClicked"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

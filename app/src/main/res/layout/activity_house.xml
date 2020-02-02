@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HouseActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/search_bar"
+        android:background="@color/colorPrimary">
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="@drawable/back_ground_2"
+        tools:ignore="UselessLeaf">
+        <GridView
+            android:layout_width="match_parent"
+            android:id="@+id/gridView"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:numColumns="1"
+            android:columnWidth="200dp"
+            android:horizontalSpacing="5dp"
+            android:verticalSpacing="5dp"
+            android:stretchMode="columnWidth"
+            tools:ignore="UselessLeaf">
+        </GridView>
+    </FrameLayout>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@style/spinner_style"
+        android:id="@+id/ads_type">
+    </Spinner>
+    <LinearLayout
+        android:id="@+id/adBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|center_horizontal"
+            app:adSize="BANNER"
+            app:adUnitId="@string/banner_ad_id">
+
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+</LinearLayout>

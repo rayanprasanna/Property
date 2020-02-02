@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">දේපළ</string>
+    <string name="likes">Likes</string>
+    <string name="banner_ad_id">ca-app-pub-3505600525587058/8113401659</string>
+    <string name="inst_ad_id">NOT_CONFIG</string>
+    <string name="ads_app_id">ca-app-pub-3505600525587058~4557300027</string>
+    <string name="yes">ඔව්</string>
+    <string name="no">නැත</string>
+    <string name="internal_storage">Internal Storage</string>
+    <string name="chooser_title">Choose Files</string>
+    <string name="sms_msg">නිවාස හා ඉඩම් පිලිබද ඔබෙ දන්වීම සමාජ ජාල, ඇප් හා වෙබ් හරහා ප්‍රචාරය කර ගැනීමට කැමතිද?</string>
+    <string name="string_internet_connection_not_available">Internet Connection Not Available</string>
+    <string name="string_some_thing_wrong">Something went wrong.</string>
+</resources>
